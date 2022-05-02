@@ -1,0 +1,54 @@
+*{
+    scroll-behavior: smooth;/*S.P.A : Single Page Application*/    
+}
+
+.row{
+    padding: 2px;
+    margin: 15px;
+}
+.separation{
+    border: 1px solid grey;
+    margin:  25px;
+}
+.card{
+    border:none !important;
+}
+.card img{
+    border: 1px solid black;
+}
+.card .lien{
+    border: 1px solid black;
+    margin: 0 15px;
+    padding: 5px;
+    color: black;
+}
+.card .lien:hover{
+    border: 1px solid black;
+    text-decoration: none;
+    color: aqua;
+
+}
+@media screen and (max-width:414px) {
+    .row{
+        padding: 0px;
+        margin: 0px;
+    }
+    .col-md-5 img{
+        width:400px ;
+        height: 300px;
+    }
+    .carousel-inner .carousel-item img{
+        height: 400px;
+    }
+    .card img{
+        height: 250px;
+        width: 400px;
+    }
+}
+/*
+extra small : < 576px; col-
+Small : >= 576px; col-sm-...
+Medium : >= 768px; col-md-...
+Large : >= 992px; col-lg-...
+Extra large : >= 1200px; col-xl-...
+*/
